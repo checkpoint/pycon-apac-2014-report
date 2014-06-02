@@ -31,7 +31,7 @@ Pythonユーザーが集まりPythonに関する情報を共有したり、交�
 * 執筆メンバー
 
 日本からは個人、団体での参加を含め10数名程度が参加していました。
-日程や予定の都合上、全員で集まる事は出来ませんでしたが、それぞれで交流を深めていました。
+日程や予定の都合上、全員で集まる事は出来ませんでしたが、それぞれ交流を深めていました。
 
 今回レポートを執筆したメンバーを紹介します。
 
@@ -75,7 +75,6 @@ MRT（地下鉄）にて[松山機上]から[忠孝敦化]まで移動する事�
 日本のSuicaなどと同様の仕組みなので、とても簡単に移動する事ができました。
 
 写真
-
 
 * 夕食（写真）
 
@@ -145,7 +144,7 @@ Tシャツは白をベースに素敵なデザインで、Python関連のイベ�
 * https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0222.JPG
 * https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2010.20.53.jpg
 
-キーノート（showyou, 関根）
+基調講演（showyou, 関根）
 -----------------------------
 
 * 内容紹介（午前)
@@ -159,7 +158,7 @@ Keynote Speech: Wes McKinney氏
 
 Keynote Speech:Python for scientist
 
-この基調講演ではひたすらipython notebook(http://ipython.org/notebook.html)を使っていろんなものを表示していました。特にD3.jsと絡めてPlot内容をインタラクティブに操作できるあたりがよかったです。話によれば、クイズで賞金王をとった人工頭脳、IBMのワトソンもipython notebookで対話してたようです。またipython notebookという名前ですが、Ruby等多言語のサポートも行われつつあるようです。
+この基調講演ではひたすらipython notebook( http://ipython.org/notebook.html )を使っていろんなものを表示していました。特にD3.jsと絡めてPlot内容をインタラクティブに操作できるあたりがよかったです。話によれば、クイズで賞金王をとった人工頭脳、IBMのワトソンもipython notebookで対話してたようです。またipython notebookという名前ですが、Ruby等多言語のサポートも行われつつあるようです。
 
 セッション（寺田, showyou, 関根）
 -----------------------------
@@ -192,14 +191,21 @@ showyouです。まず発表の部屋は4個所ありました。Keynoteは全�
 タイトル: Pyspark
 写真：
 
-Spark(http://spark.apache.org/)はHadoopのMapReduceの様な大規模並列計算エンジンで、MapReduceよりも10倍以上早いと言われるフレームワークです。さらにSparkはチュートリアルがPythonとScalaユーザ向けに書かれており、JavaでMapReduce書くよりも気軽にかけるようになっています。ただし途中の計算データは全部メモリ上展開されるため、メモリを思いっきり食います。
+Spark( http://spark.apache.org/ )はHadoopのMapReduceの様な大規模並列計算エンジンで、MapReduceよりも10倍以上早いと言われるフレームワークです。さらにSparkはチュートリアルがPythonとScalaユーザ向けに書かれており、JavaでMapReduce書くよりも気軽にかけるようになっています。ただし途中の計算データは全部メモリ上展開されるため、メモリを思いっきり食います。
 
 この発表ではYahoo Taiwanの方がSparkの話、利点とPythonからの使い方、さらにMovie Lensデータの分析での処理時間の差について語っていきました。比較的簡単に使えるような感じで説明が進んでいきました。しかしたセッションの後に筆者が本人に聞いたところ、実際に使ってる環境では、用途ごとに1台あたりメモリを40GB~100GB程度積んでるとお聞きしました。
-
 
 タイトル: TextBlob: Text Analytics for Humans
 この発表はScipyの発表ではありませんが、nltkを使って文章の分割、感情分析、句構造情報の付与などの説明がされていました。講演資料は以下に掲載されています。http://nbviewer.ipython.org/github/whosken/textblob-intro/blob/master/TextBlob.ipynb
 
+- 関根が見たセッションから一つ
+
+タイトル: Real-time visualization with Python and d3.js ( https://tw.pycon.org/2014apac/en/program/73 )
+写真:
+
+Pythonとd3.jsを組み合わせたデモを用いて、発表を行っていました。
+具体的には過去10年間の台湾の野菜の競り価格情報のデータを分析し、その結果をビジュアライズして表示するデモを行っていました。
+膨大なデータを分析して、表示する事で、今まで見えなかった傾向や、発見があるということを伝えていました。
 
 LT（寺田, showyou）
 -----------------------------
@@ -276,3 +282,8 @@ https://tw.pycon.org/2014apac/ja/bof/
 * 話した内容
 
 話の内容は自己紹介、今回のPyconの内容について、それをPyconJPにどうやって活かすかについての話等を行いました。
+
+次回予告（関根）
+-----------------------------
+
+次回はPyCon APAC 2014の2日目の様子をお届けします。

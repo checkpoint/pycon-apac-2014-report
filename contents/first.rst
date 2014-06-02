@@ -1,38 +1,149 @@
 「PyCon APAC 2014」 レポート ～初日
 ==================================================
 
-Pycon APACとは？（関根）
+去る2014年5月17日（土）、18日（日）に台湾の台北でPyCon APAC 2014（ https://tw.pycon.org/2014apac/ja/ ）が開催されました。
+キーノート、セッション、LT、FLT、パーティなど様々なイベントに参加してきました。
+ここではPyCon APAC 2014の参加レポートをお送り致します。
+
+Pycon APAC 2014とは？（関根）
 """""""""""""""""""""
 
 * Pycon APACの概要（関根）
-* 参加メンバー
+
+まず始めにPycon APACをご存じない方のために，簡単にPycon APACについてご説明させて頂きます。
+
+PyCon（ http://www.pycon.org/ ）とは日本を含む世界各国で開催されており、
+Pythonユーザーが集まりPythonに関する情報を共有したり、交流を深めるためのイベントです。
+
+その中でPycon APACはアジア、太平洋地域にかけての大きなイベントで
+一昨年はシンガポール、昨年は日本で開催（http://apac-2013.pycon.jp/ja/）されました。
+英語のセッションも多く、参加する方も色々な国から来ていて、とても国際色豊かなイベントです。
+
+今年は台湾の台北で開催されました。
+開催概要は次の内容でした。
+
+期間 2014年5月17日、18日の2日間
+構成 5つのキーノート、多数のセッション、BOF、LT
+参加費用 2,590台湾ドル( https://tw.pycon.org/2014apac/ja/registration/ )
+会場 Academia Sinica( http://www.sinica.edu.tw/main_e.shtml )
+参加人数 600名程
+
+* 執筆メンバー
+
+日本からは個人、団体での参加を含め10数名程度が参加していました。
+日程や予定の都合上、全員で集まる事は出来ませんでしたが、それぞれで交流を深めていました。
+
+今回レポートを執筆したメンバーを紹介します。
+
+名前 TwitterID 備考
+寺田 学    @terapyon    PyCon JP 2013座長
+宵 勇樹    @showyou     PyCon JP 2012ボランティア
+関根 裕紀  @checkpoint  PyCon JP 2014メンバー
+
 
 イベント前日
 """""""""""""""""""""
 
-飛行機や移動など（関根）
+関根裕紀です。ここではイベント前日の台湾までの移動や、
+台北市内での交通、またMozila Taiwanの方達との夕食について書きます。
+
+
+台湾までの道のり
 -----------------------------
 
-* 空港
+* 台湾までの移動
+
+私は次のようなルートで台湾と日本を往復しました。
+
+往路 羽田空港 → 松山空港
+復路 松山空港 → 羽田空港
+
+台北はMRTと呼ばれる地下鉄があり、またタクシーも日本に比べると料金が安いので
+移動には地下鉄とタクシーを主に利用しました。
+松山空港は台北の市街地にあり、空港までのアクセスはとても便利でした。
+
+写真
+
 * 地下鉄
-* タクシー
+
+夕食の約束があったので、松山空港から忠孝敦化まで移動をする必要がありました。
+空港でタクシー待ちが長蛇の列だったため、
+MRT（地下鉄）にて[松山機上]から[忠孝敦化]まで移動する事にしました。
+
+台湾の地下鉄では悠遊卡（EasyCard）というSuicaのようなカードが使用できますので、
+駅の自販機で購入し、それを使用しました。（NT$500で購入し、NT$100が保証金、残りの額の$400利用可能）
+日本のSuicaなどと同様の仕組みなので、とても簡単に移動する事ができました。
+
+写真
+
+
 * 夕食（写真）
+
+夕食はMozila Taiwanの方を含め、寺田さんのお友達の方とご一緒させて頂きました。
+お店は定番の鼎泰豊（ディンタイフォン）です。本店はだいぶ混雑しているらしいので、支店の忠考店へ行きました。
+
+写真
+https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-16%2019.27.36.jpg
+
+小籠包をはじめとして、前菜、チャーハン、スープなどどれもとても美味しかったです。
+また私は初めてお会いする方ばかりでしたが、とても楽しく参加させて頂きました。
+
+写真（どちらか）
+* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-16%2021.50.55.jpg
+* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-16%2020.32.28.jpg
+* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-16%2020.07.05.jpg
+
 
 初日
 """""""""""""""""""""
 
-会場（関根）
+会場および受付（関根）
 -----------------------------
 
-* 会場までの交通
-* 場所
-* 写真
+* 交通
+
+会場となるAcademia Sinica（ https://tw.pycon.org/2014apac/ja/venue/ )は市街地からは結構離れているので、
+宿泊した台北市内（西門）のホテルからの移動は、MRTとタクシーを利用しました。
+MRTにて約20分ほど、タクシーで10分ほどで会場に到着しました。
+
+* 会場
+会場はAcademia Sinica（中央研究院）の敷地内にある人文社會科學館という建物でした。
+Academia Sinica（中央研究院）は台湾の学術研究機関らしく、周りに緑が多く、建物も綺麗でとても良い雰囲気でした。
+他のオープンソース関連のイベントでも非常によく利用されているようです。
+
+Academia Sinicaに到着後、人文社会科学館ビルまで徒歩で10分程かかりますので、歩いて移動しました。
+
+写真（何枚か選ぶ）
+* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0069.JPG
+* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0073.JPG
+* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0081.JPG
+* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0074.JPG
+* https://www.flickr.com/photos/showyou41/14039411229/in/set-72157644340200517
+* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0084.JPG
 
 受付（関根)
 -----------------------------
 
 * 受付の様子
+
+受付の場所は複数あり、登録の時に利用した電話番号の下三桁の数字にによって並ぶ場所が決まっているという方式でした。
+登録時のチケットにも受付番号があり、その番号と勘違いして違う場所に並んでしまう方が多く、すこし混雑していました。（私も間違えた1人です。）
+私の場合はは時間的には余裕を持って会場に到着していたので、特に問題はありませんでした。
+
+
+写真（何枚か選ぶ）
+* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2009.54.35.jpg
+* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2009.54.40.jpg
+
+
 * ノベルティ
+
+受付後名札とノベルティーとして、トートバック、Tシャツ、ステッカー、プログラムなどを頂きました。
+Tシャツは白をベースに素敵なデザインで、Python関連のイベントがあれば着用したいと思いました。
+
+写真（どちらか選ぶ）
+* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0222.JPG
+* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2010.20.53.jpg
 
 キーノート（showyou, 関根）
 -----------------------------

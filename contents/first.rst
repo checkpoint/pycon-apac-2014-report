@@ -200,9 +200,9 @@ showyouです。まず発表の部屋は4個所ありました。Keynoteは全�
 Python for High School Students
 -------------------------------
 
-リンク: https://tw.pycon.org/2014apac/ja/program/71
-スピーカー: Song Kai
-写真: https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2011.42.27.jpg
+- リンク: https://tw.pycon.org/2014apac/ja/program/71
+- スピーカー: Song Kai
+- 写真: https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2011.42.27.jpg
 
 寺田です。このセッションは、シンガポールの高校生3人による実習の成果を発表していました。
 それぞれの成果は、以下の3つでした。
@@ -218,8 +218,8 @@ Python for High School Students
 PySpark: next generation cluster computing engine
 -------------------------------------------------
 
-リンク: https://tw.pycon.org/2014apac/ja/program/88
-スピーカー: Wisely Chen
+- リンク: https://tw.pycon.org/2014apac/ja/program/88
+- スピーカー: Wisely Chen
 
 Spark( http://spark.apache.org/ )はHadoopのMapReduceの様な大規模並列計算エンジンで、MapReduceよりも10倍以上早いと言われるフレームワークです。さらにSparkはチュートリアルがPythonとScalaユーザ向けに書かれており、JavaでMapReduce書くよりも気軽にかけるようになっています。ただし途中の計算データは全部メモリ上展開されるため、メモリを思いっきり食います。
 
@@ -228,18 +228,18 @@ Spark( http://spark.apache.org/ )はHadoopのMapReduceの様な大規模並列�
 TextBlob: Text Analytics for Human
 ----------------------------------
 
-リンク: https://tw.pycon.org/2014apac/ja/program/78
-スピーカー: Ken Hu
-写真: https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0167.JPG
+- リンク: https://tw.pycon.org/2014apac/ja/program/78
+- スピーカー: Ken Hu
+- 写真: https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0167.JPG
 
 この発表はScipyの発表ではありませんが、nltkを使って文章の分割、感情分析、句構造情報の付与などの説明がされていました。講演資料は以下に掲載されています。http://nbviewer.ipython.org/github/whosken/textblob-intro/blob/master/TextBlob.ipynb
 
 Real-time visualization with Python and d3.js
 ---------------------------------------------
 
-リンク: https://tw.pycon.org/2014apac/en/program/73
-スピーカー: Muyueh Lee
-写真: https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0096.JPG
+- リンク: https://tw.pycon.org/2014apac/en/program/73
+- スピーカー: Muyueh Lee
+- 写真: https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0096.JPG
 
 Pythonとd3.jsを組み合わせたデモを用いて、発表を行っていました。
 具体的には過去10年間の台湾の野菜の競り価格のデータを分析し、その結果をビジュアライズして表示するデモを行っていました。

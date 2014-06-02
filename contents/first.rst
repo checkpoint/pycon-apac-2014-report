@@ -4,29 +4,29 @@
 去る2014年5月17日（土）、18日（日）に台湾の台北でPyCon APAC 2014（ https://tw.pycon.org/2014apac/ja/ ）が開催されました。
 本稿では、キーノート、セッション、インタビューなどの参加レポートをお届けします。
 
-Pycon APAC 2014とは？
+PyCon APAC 2014とは？
 """""""""""""""""""""
 
-Pycon APACの概要
+PyCon APACの概要
 ---------------------
 
-まず始めに簡単にPycon APACについてご説明させて頂きます。
+まず始めに簡単にPyCon APACについてご説明させて頂きます。
 
 PyCon（ http://www.pycon.org/ ）とは日本を含む世界各国で開催されており、
 Pythonユーザーが集まりPythonに関する情報を共有したり、交流を深めるためのイベントです。
 
-その中でPycon APACはアジア、太平洋地域にかけての大きなイベントで
+その中でPyCon APACはアジア、太平洋地域にかけての大きなイベントで
 一昨年はシンガポール、昨年は日本で開催（ http://apac-2013.pycon.jp/ja/ )されました。
 英語のセッションも多く、参加する方も色々な国から来ていて、とても国際色豊かなイベントです。
 
 今年は台湾の台北で開催され、開催概要次の通りでした。
 
 
-期間2014年5月17日、18日の2日間
-構成 キーノート、セッション、BOF、LTなど
-参加費用 NT$2,590( https://tw.pycon.org/2014apac/ja/registration/ )
-会場 Academia Sinica( http://www.sinica.edu.tw/main_e.shtml )
-参加人数 600名程
+:期間: 2014年5月17日、18日の2日間
+:構成: キーノート、セッション、BOF、LTなど
+:参加費用: NT$2,590( https://tw.pycon.org/2014apac/ja/registration/ )
+:会場: Academia Sinica( http://www.sinica.edu.tw/main_e.shtml )
+:参加人数: 600名程
 
 執筆メンバー
 ---------------------
@@ -37,10 +37,21 @@ Pythonユーザーが集まりPythonに関する情報を共有したり、交�
 
 今回のレポートを執筆したメンバーを紹介します。
 
-名前 TwitterID 備考
-寺田 学    @terapyon    PyCon JP 2013座長
-宵 勇樹    @showyou     PyCon JP 2012ボランティア
-関根 裕紀  @checkpoint  PyCon JP 2014メンバー
+.. list-table::
+   :header-rows: 1
+
+   * - 名前
+     - TwitterID
+     - 備考
+   * - 寺田 学
+     - @terapyon
+     - PyCon JP 2013座長
+   * - 宵 勇樹
+     - @showyou
+     - PyCon JP 2012ボランティア
+   * - 関根 裕紀
+     - @checkpoint
+     - PyCon JP 2014スタッフ
 
 イベント前日
 """""""""""""""""""""
@@ -146,7 +157,7 @@ Tシャツは白をベースに素敵なデザインで、Python関連のイベ�
 * https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2010.20.53.jpg
 
 Keynote: Python-powered Business Analytics
----------------------
+------------------------------------------
 
 
 今回の始めの基調講演は、データ分析用フレームワークpandas( http://pandas.pydata.org/ )を作り、Python for Data Analysisを出版されたWes McKinney氏によるものでした。
@@ -156,7 +167,7 @@ Keynote: Python-powered Business Analytics
 * https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0086.JPG
 
 Keynote: Open Source and Open Science: how Python and its community made me a better scientist
----------------------
+----------------------------------------------------------------------------------------------
 
 次の基調講演はFernando Perez氏が登壇しました。
 この基調講演ではひたすらipython notebook( http://ipython.org/notebook.html )を使っていろんなものを表示していました。特にD3.jsと絡めてPlot内容をインタラクティブに操作できるあたりがよかったです。話によれば、クイズで賞金王をとった人工頭脳、IBMのワトソンもipython notebookで対話してたようです。またipython notebookという名前ですが、Ruby等多言語のサポートも行われつつあるようです。
@@ -175,7 +186,7 @@ showyouです。まず発表の部屋は4個所ありました。Keynoteは全�
 参加したセッションからいくつか内容を紹介したいと思います。
 
 Python for High School Students
------------------------------
+-------------------------------
 
 リンク: https://tw.pycon.org/2014apac/ja/program/71
 スピーカー: Song Kai
@@ -193,7 +204,7 @@ Python for High School Students
 引率の先生が一緒に来られていましたが、高校生の時から海外のカンファレンスで発表するというのは素晴らしいことだと思いました。
 
 PySpark: next generation cluster computing engine
------------------------------
+-------------------------------------------------
 
 リンク: https://tw.pycon.org/2014apac/ja/program/88
 スピーカー: Wisely Chen
@@ -203,7 +214,7 @@ Spark( http://spark.apache.org/ )はHadoopのMapReduceの様な大規模並列�
 この発表ではYahoo Taiwanの方がSparkの話、利点とPythonからの使い方、さらにMovie Lensデータの分析での処理時間の差について語っていきました。比較的簡単に使えるような感じで説明が進んでいきました。しかしたセッションの後に筆者が本人に聞いたところ、実際に使ってる環境では、用途ごとに1台あたりメモリを40GB~100GB程度積んでるとお聞きしました。
 
 TextBlob: Text Analytics for Human
------------------------------
+----------------------------------
 
 リンク: https://tw.pycon.org/2014apac/ja/program/78
 スピーカー: Ken Hu
@@ -212,7 +223,7 @@ TextBlob: Text Analytics for Human
 この発表はScipyの発表ではありませんが、nltkを使って文章の分割、感情分析、句構造情報の付与などの説明がされていました。講演資料は以下に掲載されています。http://nbviewer.ipython.org/github/whosken/textblob-intro/blob/master/TextBlob.ipynb
 
 Real-time visualization with Python and d3.js
------------------------------
+---------------------------------------------
 
 リンク: https://tw.pycon.org/2014apac/en/program/73
 スピーカー: Muyueh Lee
@@ -293,7 +304,7 @@ https://tw.pycon.org/2014apac/ja/bof/
 
 * 話した内容
 
-話の内容は自己紹介、今回のPyconの内容について、それをPyconJPにどうやって活かすかについての話などを行いました。
+話の内容は自己紹介、今回のPyConの内容について、それをPyCon JPにどうやって活かすかについての話などを行いました。
 
 次回予告
 -----------------------------

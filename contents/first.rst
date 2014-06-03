@@ -19,7 +19,7 @@ Pythonユーザーが集まりPythonに関する情報を共有したり、交�
 一昨年はシンガポール、昨年は日本で開催（ http://apac-2013.pycon.jp/ja/ )されました。
 英語のセッションも多く、参加する方も色々な国から来ていて、とても国際色豊かなイベントです。
 
-今年は台湾の台北で開催され、開催概要次の通りでした。
+今年は台湾の台北で開催され、開催概要は次の通りでした。
 
 
 :期間: 2014年5月17日、18日の2日間
@@ -173,16 +173,24 @@ Keynote: Python-powered Business Analytics
 
 
 今回の始めの基調講演は、データ分析用フレームワークpandas( http://pandas.pydata.org/ )を作り、Python for Data Analysisを出版されたWes McKinney氏によるものでした。
-話の流れとしては、Business Intelligence, Bussiness Analysis, ETL(Extract, Transform, Load。データの抽出、変換、加工のこと), 並びにPython用データサイエンス向けのカンファレンスPyDataの紹介から始まりました。次に pandasの利点と欠点、最後にご自身の会社で作成されているdatapad( http://datapad.io )というBIツールの説明の順で話が進んでいきました。datapadはサンフランシスコにある会社なのでTreasureDataとも競合するのではないかいかと思い、「TreasureDataはご存じですか」と質問しました。しかし「名前は知ってるがどんな会社か把握してない」という感じのことを返されました。
 
-写真
-* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0086.JPG
+話の流れとしては、Business Intelligence, Bussiness Analysis, ETL(Extract, Transform, Load。データの抽出、変換、加工のこと), 並びにPython用データサイエンス向けのカンファレンスPyDataの紹介から始まりました。次に pandasの利点と欠点、最後にご自身の会社で作成されているdatapad( http://datapad.io )というBIツールの説明の順で話が進んでいきました。
+
+datapadはサンフランシスコにある会社なのでTreasureDataとも競合するのではないかいかと思い、「TreasureDataはご存じですか」と質問しました。しかし「名前は知ってるがどんな会社か把握してない」という感じのことを返されました。
+
+.. figure:: /_static/wes.jpg
+   :height: 400
+
+   キーノート画面  
 
 Keynote: Open Source and Open Science: how Python and its community made me a better scientist
 ----------------------------------------------------------------------------------------------
 
 次の基調講演はFernando Perez氏が登壇しました。
-この基調講演ではひたすらipython notebook( http://ipython.org/notebook.html )を使っていろんなものを表示していました。特にD3.jsと絡めてPlot内容をインタラクティブに操作できるあたりがよかったです。話によれば、クイズで賞金王をとった人工頭脳、IBMのワトソンもipython notebookで対話してたようです。またipython notebookという名前ですが、Ruby等多言語のサポートも行われつつあるようです。
+
+この基調講演ではひたすらipython notebook( http://ipython.org/notebook.html )を使っていろんなものを表示していました。特にD3.jsと絡めてPlot内容をインタラクティブに操作できるあたりがよかったです。
+
+話によれば、クイズで賞金王をとった人工頭脳、IBMのワトソンもipython notebookで対話してたようです。またipython notebookという名前ですが、Ruby等多言語のサポートも行われつつあるようです。
 
 写真
 * https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0134.JPG
@@ -194,7 +202,7 @@ Keynote: Open Source and Open Science: how Python and its community made me a be
 セッション方式
 -----------------------------
 
-showyouです。まず発表の部屋は4個所ありました。Keynoteは全部屋中継して合同で観て、それ以外はそれぞれ個別の発表がありました。昨年からデータサイエンス向けの発表が数件ありますが、今回はなんと1日一部屋ずっとscipy及びデータマイニング関係の発表のがありました。
+宵です。まず発表の部屋は4個所ありました。Keynoteは全部屋中継して合同で観て、それ以外はそれぞれ個別の発表がありました。昨年からデータサイエンス向けの発表が数件ありますが、今回はなんと1日一部屋ずっとscipy及びデータマイニング関係の発表のがありました。
 参加したセッションからいくつか内容を紹介したいと思います。
 
 Python for High School Students
@@ -221,9 +229,11 @@ PySpark: next generation cluster computing engine
 - リンク: https://tw.pycon.org/2014apac/ja/program/88
 - スピーカー: Wisely Chen
 
+宵です。この発表ではYahoo Taiwanの方がSparkの話、利点とPythonからの使い方、さらにMovie Lensデータの分析でのMapreduceより速いことについて語っていきました。
+
 Spark( http://spark.apache.org/ )はHadoopのMapReduceの様な大規模並列計算エンジンで、MapReduceよりも10倍以上早いと言われるフレームワークです。さらにSparkはチュートリアルがPythonとScalaユーザ向けに書かれており、JavaでMapReduce書くよりも気軽にかけるようになっています。ただし途中の計算データは全部メモリ上展開されるため、メモリを思いっきり食います。
 
-この発表ではYahoo Taiwanの方がSparkの話、利点とPythonからの使い方、さらにMovie Lensデータの分析での処理時間の差について語っていきました。比較的簡単に使えるような感じで説明が進んでいきました。しかしたセッションの後に筆者が本人に聞いたところ、実際に使ってる環境では、用途ごとに1台あたりメモリを40GB~100GB程度積んでるとお聞きしました。
+本発表では比較的簡単に導入できる感じで説明が進んでいきました。しかしたセッションの後に筆者が本人に聞いたところ、実際に使ってる環境では、用途ごとに1台あたりメモリを40GB~100GB程度積んでるとお聞きしました。
 
 TextBlob: Text Analytics for Human
 ----------------------------------
@@ -232,7 +242,7 @@ TextBlob: Text Analytics for Human
 - スピーカー: Ken Hu
 - 写真: https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0167.JPG
 
-この発表はScipyの発表ではありませんが、nltkを使って文章の分割、感情分析、句構造情報の付与などの説明がされていました。講演資料は以下に掲載されています。http://nbviewer.ipython.org/github/whosken/textblob-intro/blob/master/TextBlob.ipynb
+宵です。この発表はScipyの発表ではありませんが、nltkという自然言語処理のツールを使って、文章の分割、感情分析、句構造情報の付与などの説明がされていました。講演資料は以下に掲載されています。http://nbviewer.ipython.org/github/whosken/textblob-intro/blob/master/TextBlob.ipynb
 
 Real-time visualization with Python and d3.js
 ---------------------------------------------
@@ -248,7 +258,12 @@ Pythonとd3.jsを組み合わせたデモを用いて、発表を行っていま
 LT、FLT
 -----------------------------
 
-showyouです。初日の最後のセッションは、メインホールにてライトニングトーク(LT)が行われました。
+.. warning::
+
+   ここは宵と書かれてましたが、恐らく寺田さんじゃないでしょうか
+
+
+です。初日の最後のセッションは、メインホールにてライトニングトーク(LT)が行われました。
 英語トーク3本が行われ、その後中国語でのトークが10本ありました。
 
 詳しくはWebサイト ( https://tw.pycon.org/2014apac/en/program/lightning/ ) (英語ページ) をご覧ください。
@@ -262,6 +277,11 @@ showyouです。初日の最後のセッションは、メインホールにて�
 音楽用キーボードを使って、Pythonで表示しているアナログ時計を操作するという面白いトークでした。
 残念ながら中国語での説明がほとんどだったため、詳しいことはわかりませんでした。
 写真: https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2017.56.35.jpg
+
+.. warning::
+
+   この発表ですが、以下の画像にある通り、Midiキーボードの出力をスピーカーに渡すだけでなく、pygameで音程を認識してwebサーバに流し、音程によって時計を戻したり、Let it beの出だしと判断していたと考えられます。中国語の説明はわかってませんが。
+   https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2017.57.41.jpg
 
 - 日本のPyConでも2回講演頂いている、Moskyさんも登壇
 台湾の郵便番号を検索するサイトは使いにくいようで、Pythonのモジュールを作って簡単に検索できるようにするツールを紹介していました。
@@ -278,16 +298,21 @@ showyouです。初日の最後のセッションは、メインホールにて�
 FLTの発表してみて
 -----------------------------
 
-showyouです。せっかく台北まで来たし、飛び入りで参加できるとのことなので申し込みました。とは言え会議期間中に知ったため、技術的になにか仕込む余裕もありませんでした。ですのでHueというdjangoで作られたHadoopの管理システムの紹介を行いました。
+宵です。今回元々発表する予定はありませんでしたが、飛び入りで参加できるとのことなので申し込みました。とは言え会議期間中にそれを知ったため、技術的になにか仕込む余裕もありませんでした。ですのでHue( http://www.cloudera.co.jp/blog/short-blog-5.html )というdjangoで作られたHadoopの管理システムの紹介を行いました。
 
 発表方法としては分量が少ないだけで通常のLTと同じペースで進めていました。達人ならば二分間に早口で詰め込むでしょうけども、実は筆者に取って初の海外かつ英語での発表だったため、ゆっくりと伝えたいことに注力して発表しました。
 
-そして自分のトーク自体は1分ちょいで終わったのですが、2分間完全に使わないといけないシステムであったため、その後呼び戻されて自分の経歴について少し細かく説明しました。
+そして自分のトーク自体は1分ちょいで終わったのですが、2分間完全に使わないといけないシステムであったため、呼び戻されて自己紹介で時間を潰す羽目になりました。
 
 FLTで初めての発表であったこと、また海外からの発表ということもあったためか発表後は拍手で迎えて貰えました。気持ちよかったです。またやはりカンファレンスは参加するだけでなく発表する方が楽しいです。
 
 
-なおその次に発表されたCapy CTOの島田さんは手馴れていて、二分間きっちり流暢に話していました。ですのでどちらも2分間で収まってしまったわけですが、主催としてはタイムオーバーして無理やり引き剥がすの行いたかったみたいなのでご期待には添えなかった感じでした。
+なおその次に発表されたCapy CTOの島田さんは手馴れていて、二分間きっちり流暢に話していました。ですのでどちらも2分間で収まってしまったわけですが、主催としてはタイムオーバーして無理やり引き剥がすことを行いたかったみたいなのでご期待には添えなかった感じでした(笑
+
+.. figure:: /_static/capy.jpg
+   :height: 400
+
+   Capy 島田さんによる流暢なFLT
 
 BoF
 -----------------------------
@@ -306,15 +331,9 @@ https://tw.pycon.org/2014apac/ja/bof/
 夕食
 -----------------------------
 
-* 場所、料理
-
-夕食はカンファレンス会場の横にある、宿泊施設内にある中華料理屋に入りました。食事も大皿を幾つか注文して、みなさんでよそいあって食べていました。
-
-* メンバー
+宵です。1日目の夕食はカンファレンス会場の横にある、宿泊施設内にある中華料理屋に入りました。食事も大皿を幾つか注文して、みなさんでよそいあって食べていました。
 
 メンバーは日本から来た人ら５〜６人でした。そもそも日本から来ている人自体が10人いくかどうかなので、お互いを知るいい機会になりました。
-
-* 話した内容
 
 話の内容は自己紹介、今回のPyConの内容について、それをPyCon JPにどうやって活かすかについての話などを行いました。
 

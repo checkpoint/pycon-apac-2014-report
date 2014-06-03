@@ -1,8 +1,7 @@
 「PyCon APAC 2014」 レポート ～初日
 ==================================================
 
-去る2014年5月17日（土）、18日（日）に台湾の台北でPyCon APAC 2014（ https://tw.pycon.org/2014apac/ja/ ）が開催されました。
-本稿では、キーノート、セッション、インタビューなどの参加レポートをお届けします。
+去る2014年5月17日（土）、18日（日）に台湾の台北で `PyCon APAC 2014 <https://tw.pycon.org/2014apac/ja/>`_ が開催されました。本稿では、キーノート、セッション、インタビューなどの参加レポートをお届けします。
 
 PyCon APAC 2014とは？
 """""""""""""""""""""
@@ -10,30 +9,18 @@ PyCon APAC 2014とは？
 PyCon APACの概要
 ---------------------
 
-まず始めに簡単にPyCon APACについてご説明させて頂きます。
-
-PyCon（ http://www.pycon.org/ ）とは日本を含む世界各国で開催されており、
-Pythonユーザーが集まりPythonに関する情報を共有したり、交流を深めるためのイベントです。
-
-その中でPyCon APACはアジア、太平洋地域にかけての大きなイベントで
-一昨年はシンガポール、昨年は日本で開催（ http://apac-2013.pycon.jp/ja/ )されました。
-英語のセッションも多く、参加する方も色々な国から来ていて、とても国際色豊かなイベントです。
-
-今年は台湾の台北で開催され、開催概要は次の通りでした。
-
+まず始めに簡単にPyCon APACについてご説明させて頂きます。`PyCon <http://www.pycon.org/>`_ とは日本を含む世界各国で開催されており、Pythonユーザーが集まりPythonに関する情報を共有したり、交流を深めるためのイベントです。その中でPyCon APACはアジア、太平洋地域にかけての大きなイベントで一昨年はシンガポール、昨年は日本で `開催 <http://apac-2013.pycon.jp/ja/>`_ されました。英語のセッションも多く、参加する方も色々な国から来ていて、とても国際色豊かなイベントです。今年は台湾の台北で開催され、開催概要は次の通りでした。
 
 :期間: 2014年5月17日、18日の2日間
 :構成: キーノート、セッション、BOF、LTなど
-:参加費用: NT$2,590( https://tw.pycon.org/2014apac/ja/registration/ )
-:会場: Academia Sinica( http://www.sinica.edu.tw/main_e.shtml )
+:参加費用: `NT$2,590 <https://tw.pycon.org/2014apac/ja/registration/>`_
+:会場: `Academia Sinica <http://www.sinica.edu.tw/main_e.shtml>`_
 :参加人数: 600名程
 
 執筆メンバー
 ---------------------
 
-日本からは個人、団体での参加を含め10数名程度が参加していました。
-日程や予定の都合上、全員で集まる事は出来ませんでしたが、それぞれ交流を深めて、
-非常に有意義な時間を過ごすことが出来ました。
+日本からは個人、団体での参加を含め10数名程度が参加していました。各自の都合もあり、全員が集う機会はありませんでしたが、それぞれ交流して非常に有意義な時間を過ごすことが出来ました。
 
 今回のレポートを執筆したメンバーを紹介します。
 
@@ -56,67 +43,60 @@ Pythonユーザーが集まりPythonに関する情報を共有したり、交�
 イベント前日
 """""""""""""""""""""
 
-関根裕紀です。ここではイベント前日の台湾までの移動や、
-台北市内での交通、またMozila Taiwanの方達との夕食について書きます。
+関根です。ここではイベント前日の台湾までの移動や、台北市内での交通、またMozila Taiwanの方々との夕食について書きます。
 
 飛行機での移動
 ---------------------
 
 私は次のようなルートで台湾と日本を往復しました。
-松山空港、羽田空港ともに都心から近く、とても便利でした。
-平日の昼間に移動した事もあり、羽田空港はとても空いていて快適でした。
 
-往路 羽田空港 → 松山空港
-復路 松山空港 → 羽田空港
+.. list-table::
+
+   * - 往路
+     - 羽田空港 → 松山空港
+   * - 復路
+     - 松山空港 → 羽田空港
+
+松山空港、羽田空港ともに都心から近く、とても便利でした。平日の昼間に移動した事もあり、羽田空港はとても空いていて快適でした。
+
 
 現地での移動
 ---------------------
 
 現地での移動には、主にMRT（地下鉄）とタクシーを利用しました。
 
-台湾の地下鉄では悠遊卡（EasyCard）というSuicaのようなカードが使用できます。
-（NT$500で購入し、NT$100が保証金、残りの額の$400利用可能）
-駅の自販機で購入し、それを使用しました。
-日本のSuicaなどと同様の仕組みなのでとても簡単に使用することが出来ました。
+台湾の地下鉄では悠遊卡（EasyCard）というSuicaのようなカードが使用できます。（NT$500で購入し、NT$100が保証金、残りの額の$400利用可能）駅の自販機で購入し、それを使用しました。日本のSuicaなどと同様の仕組みなのでとても簡単に使用することが出来ました。
 
-写真
-
-* https://www.dropbox.com/s/vxabc593phvj54r/IMG_8458.JPG
-
-.. figure:: /_static/IMG_8458.JPG
+.. figure:: /_static/first/easy_card.jpg
    :height: 400
 
-   画像のキャプションを指定してください
+   悠遊卡（EasyCard）
 
-.. warning::
+また台湾のタクシーは日本と比べると安いので、台北市内の移動がほとんどだったので、あまり料金もかからず移動する事ができました。複数人で移動する場合や、早朝、深夜などに利用しました。
 
-   画像はリンクではなくて、このように記事中に画像を入れてください。また画像ファイルを _static 以下に参照するようにしてください
+夕食
+---------------------
 
-   また、必ず画像にはキャプションを入れてください(たかのり)
+夕食はMozila Taiwanの方と、寺田さんのお友達の方とご一緒させて頂きました。お店は定番の鼎泰豊（ディンタイフォン）です。本店はだいぶ混雑しているらしいので、支店の忠考店で待ち合わせをしました。
 
-また台湾のタクシーは日本と比べると安いので、
-台北市内の移動がほとんどだったので、あまり料金もかからず移動する事ができました。
-複数人で移動する場合や、早朝、深夜などに利用しました。
+.. figure:: /_static/first/dinner_1.jpg
+   :height: 400
 
-* 夕食
-
-夕食はMozila Taiwanの方と、寺田さんのお友達の方とご一緒させて頂きました。
-お店は定番の鼎泰豊（ディンタイフォン）です。
-本店はだいぶ混雑しているらしいので、支店の忠考店で待ち合わせをしました。
-
-写真
-https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-16%2019.27.36.jpg
+   鼎泰豊（ディンタイフォン）
 
 小籠包をはじめとして、前菜、チャーハン、スープなど、どれもとても美味しかったです。
-Pythonに関するお話や、日本、台湾に関するお話をさせて頂きました。
-私は初めてお会いする方ばかりでしたが、国籍を超えて交流する事ができてとても楽しかったです。
 
-写真
-* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-16%2020.32.28.jpg
-* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-16%2020.07.05.jpg
+.. figure:: /_static/first/dinner_2.jpg
+   :height: 400
 
-写真
-* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-16%2021.50.55.jpg
+   食事風景
+
+Pythonや自分たちが開発しているサービス、日本や台湾に関するお話をさせて頂きました。私は初めてお会いする方ばかりでしたが、国籍を超えて交流する事ができてとても楽しかったです。
+
+.. figure:: /_static/first/dinner_3.jpg
+   :height: 400
+
+   集合写真
 
 
 初日
@@ -125,60 +105,59 @@ Pythonに関するお話や、日本、台湾に関するお話をさせて頂�
 交通
 ---------------------
 
-関根裕紀です。
-会場となるAcademia Sinica（ https://tw.pycon.org/2014apac/ja/venue/ )は
-市街地からは結構離れているので、宿泊した台北市内のホテルからの移動は、MRTとタクシーを利用しました。
-MRTにて約20分ほど、タクシーで10分ほどで会場に到着しました。
+関根です。会場となる `Academia Sinica <http://www.sinica.edu.tw/main_e.shtml>`_ は市街地からは結構離れているので、宿泊した台北市内のホテルからの移動は、MRTとタクシーを利用しました。MRTにて約20分ほど、タクシーで10分ほどで会場に到着しました。
 
 会場
 ---------------------
 
-会場はAcademia Sinica（中央研究院）の敷地内にある人文社会科学館という建物でした。
-Academia Sinicaは台湾の学術研究機関です。敷地も大きく緑が豊富でまた建物も新しくて
-とても素晴らしい場所でした。他のオープンソース関連のイベントでも非常によく利用されているようです。
-
+会場はAcademia Sinica（中央研究院）の敷地内にある人文社会科学館という建物でした。Academia Sinicaは台湾の学術研究機関です。敷地も大きく緑が豊富でとても素晴らしい場所でした。他のオープンソース関連のイベントでも非常によく利用されているようです。
 Academia Sinicaに到着後、人文社会科学館ビルまで徒歩で10分程かかりますので、歩いて移動しました。
 
-写真（何枚か選ぶ）
-* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0069.JPG
-* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0073.JPG
-* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0081.JPG
-* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0074.JPG
-* https://www.flickr.com/photos/showyou41/14039411229/in/set-72157644340200517
-* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0084.JPG
+.. figure:: /_static/first/academia_sinica_1.jpg
+   :height: 400
+
+   Academia Sinica（１）
+
+.. figure:: /_static/first/academia_sinica_2.jpg
+   :height: 400
+
+   Academia Sinica（２）
+
+.. figure:: /_static/first/academia_sinica_3.jpg
+   :height: 400
+
+   人文社会科学館
 
 受付
 ---------------------
 
-受付の場所は複数あり、登録の時に利用した電話番号の下三桁の数字にによって並ぶ場所が決まっているという方式でした。
-登録時のチケットにも受付番号があり、その番号と勘違いして違う場所に並んでしまう方が多く、すこし混雑していました。（私も間違えた1人です。）
-私の場合は時間的には余裕を持って会場に到着していたので、特に問題はありませんでした。
+受付の場所は複数あり、登録の時に利用した電話番号の下三桁の数字にによって並ぶ場所が決まっているという方式でした。登録時のチケットにも受付番号があり、その番号と勘違いして違う場所に並んでしまう方が多く、すこし混雑していました。（私も間違えた1人です。）私の場合は時間的には余裕を持って会場に到着していたので、特に問題はありませんでした。
 
-写真（何枚か選ぶ）
-* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2009.54.35.jpg
-* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2009.54.40.jpg
+.. figure:: /_static/first/receipt.jpg
+   :height: 400
+
+   受付の様子
 
 ノベルティ
 ---------------------
 
-受付後名札とノベルティーとして、トートバック、Tシャツ、ステッカー、プログラムなどを頂きました。
-Tシャツは白をベースに素敵なデザインで、Python関連のイベントがあれば着用したいと思いました。
+受付後名札とノベルティーとして、トートバック、Tシャツ、ステッカー、プログラムなどを頂きました。Tシャツは白をベースに素敵なデザインで、Python関連のイベントがあれば着用したいと思いました。
 
-写真（どちらか選ぶ）
-* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0222.JPG
-* https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2010.20.53.jpg
+.. figure:: /_static/first/novelty.jpg
+   :height: 400
+
+   ノベルティ
 
 Keynote: Python-powered Business Analytics
 ------------------------------------------
 
+今回の始めの基調講演は、データ分析用フレームワーク `pandas <http://pandas.pydata.org/>`_ を作り、Python for Data Analysisを出版されたWes McKinney氏によるものでした。
 
-今回の始めの基調講演は、データ分析用フレームワークpandas( http://pandas.pydata.org/ )を作り、Python for Data Analysisを出版されたWes McKinney氏によるものでした。
-
-話の流れとしては、Business Intelligence, Bussiness Analysis, ETL(Extract, Transform, Load。データの抽出、変換、加工のこと), 並びにPython用データサイエンス向けのカンファレンスPyDataの紹介から始まりました。次に pandasの利点と欠点、最後にご自身の会社で作成されているdatapad( http://datapad.io )というBIツールの説明の順で話が進んでいきました。
+話の流れとしては、Business Intelligence, Bussiness Analysis, ETL(Extract, Transform, Load。データの抽出、変換、加工のこと), 並びにPython用データサイエンス向けのカンファレンスPyDataの紹介から始まりました。次に pandasの利点と欠点、最後にご自身の会社で作成されている `datapad <http://http://datapad.io/>`_ というBIツールの説明の順で話が進んでいきました。
 
 datapadはサンフランシスコにある会社なのでTreasureDataとも競合するのではないかいかと思い、「TreasureDataはご存じですか」と質問しました。しかし「名前は知ってるがどんな会社か把握してない」という感じのことを返されました。
 
-.. figure:: /_static/wes.jpg
+.. figure:: /_static/first/wes.jpg
    :height: 400
 
    キーノート画面  
@@ -188,16 +167,14 @@ Keynote: Open Source and Open Science: how Python and its community made me a be
 
 次の基調講演はFernando Perez氏が登壇しました。
 
-この基調講演ではひたすらipython notebook( http://ipython.org/notebook.html )を使っていろんなものを表示していました。特にD3.jsと絡めてPlot内容をインタラクティブに操作できるあたりがよかったです。
+この基調講演ではひたすら `ipython notebook <http://ipython.org/notebook.html/>`_ を使っていろんなものを表示していました。特にD3.jsと絡めてPlot内容をインタラクティブに操作できるあたりがよかったです。
 
 話によれば、クイズで賞金王をとった人工頭脳、IBMのワトソンもipython notebookで対話してたようです。またipython notebookという名前ですが、Ruby等多言語のサポートも行われつつあるようです。
 
-写真
-* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0134.JPG
-* https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0140.JPG
+.. figure:: /_static/first/keynote_2.jpg
+   :height: 400
 
-基調講演のURL
-* https://tw.pycon.org/2014apac/ja/program/keynote-speakers/
+   Fernando Perez氏
 
 セッション方式
 -----------------------------
@@ -208,85 +185,115 @@ Keynote: Open Source and Open Science: how Python and its community made me a be
 Python for High School Students
 -------------------------------
 
-- リンク: https://tw.pycon.org/2014apac/ja/program/71
-- スピーカー: Song Kai
-- 写真: https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2011.42.27.jpg
-
 寺田です。このセッションは、シンガポールの高校生3人による実習の成果を発表していました。
 それぞれの成果は、以下の3つでした。
-  GAEでSNSを作り高校の中で使っているもの
-  GAEで構築した、フードコートのランチの人気や待ち時間予想をするサービス
-  OpenCVを使って提出物の文字を判定するツール
+
+* GAEでSNSを作り高校の中で使っているもの
+* GAEで構築した、フードコートのランチの人気や待ち時間予想をするサービス
+* OpenCVを使って提出物の文字を判定するツール
+
 どれも完成度が高く高校生が作ったものとは思えませんでした。
 
 セッション中に話が出ていましたが、シンガポールの高校生がみんなコンピュータに興味がありこの様に勉強しているのではなく、ほとんどの高校生は興味が無いということで、自分たちはマイノリティーだということでした。
 
 引率の先生が一緒に来られていましたが、高校生の時から海外のカンファレンスで発表するというのは素晴らしいことだと思いました。
 
+.. figure:: /_static/first/session_1.jpg
+   :height: 400
+
+   Python for High School Studentsの様子
+
+- リンク: https://tw.pycon.org/2014apac/ja/program/71
+- スピーカー: Song Kai
+
 PySpark: next generation cluster computing engine
 -------------------------------------------------
+
+宵です。この発表ではYahoo Taiwanの方がSparkの話、利点とPythonからの使い方、さらにMovie Lensデータの分析でのMapreduceより速いことについて語っていきました。
+
+`Spark <http://spark.apache.org/>`_ はHadoopのMapReduceの様な大規模並列計算エンジンで、MapReduceよりも10倍以上早いと言われるフレームワークです。さらにSparkはチュートリアルがPythonとScalaユーザ向けに書かれており、JavaでMapReduce書くよりも気軽にかけるようになっています。ただし途中の計算データは全部メモリ上展開されるため、メモリを思いっきり食います。
+
+本発表では比較的簡単に導入できる感じで説明が進んでいきました。しかしたセッションの後に筆者が本人に聞いたところ、実際に使ってる環境では、用途ごとに1台あたりメモリを40GB~100GB程度積んでるとお聞きしました。
 
 - リンク: https://tw.pycon.org/2014apac/ja/program/88
 - スピーカー: Wisely Chen
 
-宵です。この発表ではYahoo Taiwanの方がSparkの話、利点とPythonからの使い方、さらにMovie Lensデータの分析でのMapreduceより速いことについて語っていきました。
-
-Spark( http://spark.apache.org/ )はHadoopのMapReduceの様な大規模並列計算エンジンで、MapReduceよりも10倍以上早いと言われるフレームワークです。さらにSparkはチュートリアルがPythonとScalaユーザ向けに書かれており、JavaでMapReduce書くよりも気軽にかけるようになっています。ただし途中の計算データは全部メモリ上展開されるため、メモリを思いっきり食います。
-
-本発表では比較的簡単に導入できる感じで説明が進んでいきました。しかしたセッションの後に筆者が本人に聞いたところ、実際に使ってる環境では、用途ごとに1台あたりメモリを40GB~100GB程度積んでるとお聞きしました。
-
 TextBlob: Text Analytics for Human
 ----------------------------------
 
+宵です。この発表はScipyの発表ではありませんが、nltkという自然言語処理のツールを使って、文章の分割、感情分析、句構造情報の付与などの説明がされていました。講演資料は以下に掲載されています。http://nbviewer.ipython.org/github/whosken/textblob-intro/blob/master/TextBlob.ipynb
+
+
+.. figure:: /_static/first/session_2.jpg
+   :height: 400
+
+   TextBlob: Text Analytics for Humanの様子
+
 - リンク: https://tw.pycon.org/2014apac/ja/program/78
 - スピーカー: Ken Hu
-- 写真: https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0167.JPG
 
-宵です。この発表はScipyの発表ではありませんが、nltkという自然言語処理のツールを使って、文章の分割、感情分析、句構造情報の付与などの説明がされていました。講演資料は以下に掲載されています。http://nbviewer.ipython.org/github/whosken/textblob-intro/blob/master/TextBlob.ipynb
 
 Real-time visualization with Python and d3.js
 ---------------------------------------------
 
+関根です。Pythonとd3.jsを組み合わせたデモを用いて、発表を行っていました。具体的には過去10年間の台湾の野菜の競り価格のデータを分析し、その結果をビジュアライズして表示するデモを行っていました。膨大なデータを分析して、表示する事で、今まで見えなかった傾向や、発見があるということを伝えていました。
+
+.. figure:: /_static/first/session_3.jpg
+   :height: 400
+
+   Real-time visualization with Python and d3.jsの様子
+
 - リンク: https://tw.pycon.org/2014apac/en/program/73
 - スピーカー: Muyueh Lee
-- 写真: https://www.dropbox.com/sh/cgcc0im9pvfviaz/AAAIsY2_6HGxR-_H2R1x68jga#lh:null-DSC_0096.JPG
 
-Pythonとd3.jsを組み合わせたデモを用いて、発表を行っていました。
-具体的には過去10年間の台湾の野菜の競り価格のデータを分析し、その結果をビジュアライズして表示するデモを行っていました。
-膨大なデータを分析して、表示する事で、今まで見えなかった傾向や、発見があるということを伝えていました。
 
-LT、FLT
+
+LT
 -----------------------------
 
-.. warning::
-
-   ここは宵と書かれてましたが、恐らく寺田さんじゃないでしょうか
-
-
-です。初日の最後のセッションは、メインホールにてライトニングトーク(LT)が行われました。
+寺田です。初日の最後のセッションは、メインホールにてライトニングトーク(LT)が行われました。
 英語トーク3本が行われ、その後中国語でのトークが10本ありました。
 
-詳しくはWebサイト ( https://tw.pycon.org/2014apac/en/program/lightning/ ) (英語ページ) をご覧ください。
+詳しくは `Webサイト(英語ページ) <https://tw.pycon.org/2014apac/en/program/lightning/>`_ をご覧ください。
 
 この中から何件か印象に残ったものを紹介します。
 
-- トップバッターは、執筆者の一人でもある、寺田 学(@terapyon) による、MOOCツール edXの紹介でした。
+MOOCツール edXの紹介
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+トップバッターは、執筆者の一人でもある、寺田 学(@terapyon) による、MOOCツール edXの紹介でした。
 教育関係で私のMOOC(Massive open online course)を構築できるPython & Djangoベースのツールである、edx-platformの紹介を英語で行いました。
 
-- Chia-Chi Chang:  Call for PyData Series' Talk in MLDM Monday
+.. figure:: /_static/first/lt_1.jpg
+   :height: 400
+
+   MOOCツール edXの紹介の様子
+
+Chia-Chi Chang:  Call for PyData Series' Talk in MLDM Monday
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 音楽用キーボードを使って、Pythonで表示しているアナログ時計を操作するという面白いトークでした。
+仕組み的にはMidiキーボードの出力をスピーカーに渡し、pygameで音程を認識してwebサーバに送り、音程によって時計を戻したり、Let it beの出だしと判断していたようです。
 残念ながら中国語での説明がほとんどだったため、詳しいことはわかりませんでした。
-写真: https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2017.56.35.jpg
 
-.. warning::
+.. figure:: /_static/first/lt_3.jpg
+   :height: 400
 
-   この発表ですが、以下の画像にある通り、Midiキーボードの出力をスピーカーに渡すだけでなく、pygameで音程を認識してwebサーバに流し、音程によって時計を戻したり、Let it beの出だしと判断していたと考えられます。中国語の説明はわかってませんが。
-   https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2017.57.41.jpg
+   Chia-Chi Chang氏
 
-- 日本のPyConでも2回講演頂いている、Moskyさんも登壇
+ZIPCodeTW: Find Taiwan ZIP Code by Address Fuzzily
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+日本のPyConでも2回講演頂いている、Moskyさんも登壇
 台湾の郵便番号を検索するサイトは使いにくいようで、Pythonのモジュールを作って簡単に検索できるようにするツールを紹介していました。
-写真: https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2018.09.46.jpg
 
+.. figure:: /_static/first/lt_2.jpg
+   :height: 400
+
+   Mosky氏
+
+FLT
+-----------------------------
 
 全13本のトークのあとに、FLTという面白い試みが行われていました。
 通常のLTは、5分間で行われることが多いのですが、このFLTは、"Faster Than Lightning Talk"ということで、2分間で完全に終わらなければならいというものでした。
@@ -298,7 +305,7 @@ LT、FLT
 FLTの発表してみて
 -----------------------------
 
-宵です。今回元々発表する予定はありませんでしたが、飛び入りで参加できるとのことなので申し込みました。とは言え会議期間中にそれを知ったため、技術的になにか仕込む余裕もありませんでした。ですのでHue( http://www.cloudera.co.jp/blog/short-blog-5.html )というdjangoで作られたHadoopの管理システムの紹介を行いました。
+宵です。今回元々発表する予定はありませんでしたが、飛び入りで参加できるとのことなので申し込みました。とは言え会議期間中にそれを知ったため、技術的になにか仕込む余裕もありませんでした。ですので `Hue <http://www.cloudera.co.jp/blog/short-blog-5.html>`_ というdjangoで作られたHadoopの管理システムの紹介を行いました。
 
 発表方法としては分量が少ないだけで通常のLTと同じペースで進めていました。達人ならば二分間に早口で詰め込むでしょうけども、実は筆者に取って初の海外かつ英語での発表だったため、ゆっくりと伝えたいことに注力して発表しました。
 
@@ -309,7 +316,7 @@ FLTで初めての発表であったこと、また海外からの発表とい�
 
 なおその次に発表されたCapy CTOの島田さんは手馴れていて、二分間きっちり流暢に話していました。ですのでどちらも2分間で収まってしまったわけですが、主催としてはタイムオーバーして無理やり引き剥がすことを行いたかったみたいなのでご期待には添えなかった感じでした(笑
 
-.. figure:: /_static/capy.jpg
+.. figure:: /_static/first/capy.jpg
    :height: 400
 
    Capy 島田さんによる流暢なFLT
@@ -320,11 +327,15 @@ BoF
 寺田です。BoFとは、Birds of a Feather の略で、テーマごとに時間を区切り一つのテーマについて議論をしたりデモをしたりするイベントです。Open Space(オープンスペース)などと呼ばれている場合もあります。台湾で行われているPyConでは毎年初日の夜に、ピザなどを食べながら廊下に椅子を並べて行っています。
 
 今年は、8個のBoFがエントリーされ大変盛り上がっていました。
-https://tw.pycon.org/2014apac/ja/bof/
-写真: https://www.dropbox.com/sh/ewl91tuv0gask0a/AABEWnxJYoubMvZNmd66cyp_a#lh:null-2014-05-17%2020.52.28.jpg
+
+* https://tw.pycon.org/2014apac/ja/bof/
+
+.. figure:: /_static/first/bof.jpg
+   :height: 400
+
+   BoFの様子
 
 多くのものが中国語で話が進んでいましたが、日本人などの海外からの参加者がいると英語に切り替えてくれました。
-
 台湾の方はお酒が強いイメージが有ったのですが、PyConに参加されている皆さんはほとんどお酒は飲まず、夜まで真剣な議論や勉強をしている印象となりました。
 
 

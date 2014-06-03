@@ -19,7 +19,7 @@
 Keynote speech: ジェシカ・マッケラー
 --------------------------------------
 
-.. figure:: /_static/Jessica.jpg
+.. figure:: /_static/second/Jessica.jpg
    :height: 400
 
 ジェシカはボストンのPythonコミュニティの発起人であり、女性向けPythonユーザグループを立てた凄腕の起業家兼エンジニアです。このキーノートでは、様々な場所で使われているpythonについての紹介を行ってました。低いとこでは海底、高いとこでは宇宙ステーションでの利用例を紹介していました。
@@ -50,7 +50,7 @@ What Is Async, How Does It Work, and When Should I Use It?
 Social Network Analysis with Python
 -----------------------------------
 
-.. figure:: /_static/social_analysis.jpg
+.. figure:: /_static/second/social_analysis.jpg
    :height: 400
 
    講演画面

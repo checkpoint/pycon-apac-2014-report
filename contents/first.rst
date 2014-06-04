@@ -12,8 +12,8 @@ PyCon APACの概要
 まず始めに簡単にPyCon APACについてご説明させて頂きます。`PyCon <http://www.pycon.org/>`_ とは日本を含む世界各国で開催されており、Pythonユーザーが集まりPythonに関する情報を共有したり、交流を深めるためのイベントです。その中でPyCon APACはアジア、太平洋地域にかけての大きなイベントで一昨年はシンガポール、昨年は日本で `開催 <http://apac-2013.pycon.jp/ja/>`_ されました。英語のセッションも多く、参加する方も色々な国から来ていて、とても国際色豊かなイベントです。今年は台湾の台北で開催され、開催概要は次の通りでした。
 
 :期間: 2014年5月17日、18日の2日間
-:構成: キーノート、セッション、BOF、LTなど
-:参加費用: `NT$2,590 <https://tw.pycon.org/2014apac/ja/registration/>`_
+:構成: キーノート、セッション、BoF、LTなど
+:参加費用: `NT$2,590 <https://tw.pycon.org/2014apac/ja/registration/>`_ (日本円で約8,800円)
 :会場: `Academia Sinica <http://www.sinica.edu.tw/main_e.shtml>`_
 :参加人数: 600名程
 
@@ -30,15 +30,15 @@ PyCon APACの概要
    * - 名前
      - TwitterID
      - 備考
-   * - 寺田 学
-     - @terapyon
-     - PyCon JP 2013座長
    * - 宵 勇樹
      - @showyou
      - PyCon JP 2012ボランティア
    * - 関根 裕紀
      - @checkpoint
      - PyCon JP 2014スタッフ
+   * - 寺田 学
+     - @terapyon
+     - 一般社団法人PyCon JP代表理事 (PyCon JP 2013座長)
 
 イベント前日
 """""""""""""""""""""

@@ -34,4 +34,5 @@ Contents:
 
    first
    second
+   profile
 

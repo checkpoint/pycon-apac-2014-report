@@ -10,9 +10,20 @@ PyCon JP 2012お手伝い。PyCon TW 2013でもレポート執筆。
 
 業務は大規模データ処理環境の構築運用や見える化ツールの運用など。Pythonは主にTwitter Botを作るのに使用。機械学習にも興味があり、PRML勉強会,R,Web Mining系の勉強会を主催、参加。
 
-関根
+関根裕紀（せきねひろのり）
 -----------------------------
 
+.. figure:: /_static/profile/sekine.jpg
+   :height: 200
+
+`アライドアーキテクツ株式会社 <http://www.aainc.co.jp/>`_ 所属
+
+複数のスタートアップにて、コンシューマー向けWebサービスの開発を経験後、2012年よりアライドアーキテクツ株式会社に参加。
+業務では主にWebサービスの開発全般を担当している。5年ほど前にPythonを使用して以来、Pythonが好き。
+時間があるときはDjangoやPythonの勉強会にも参加している。
+
+Twitter： @checkpoint
+社内ブログ： http://tech.aainc.co.jp/archives/author/sekine
 
 寺田学（てらだまなぶ）
 -----------------------------

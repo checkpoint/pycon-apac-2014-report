@@ -3,8 +3,11 @@
 
 
 
-宵
+宵（よいゆうき）
 -----------------------------
+
+.. figure:: /_static/profile/yoi.jpg
+   :height: 200
 
 PyCon JP 2012お手伝い。PyCon TW 2013でもレポート執筆。
 
@@ -16,10 +19,9 @@ PyCon JP 2012お手伝い。PyCon TW 2013でもレポート執筆。
 .. figure:: /_static/profile/sekine.jpg
    :height: 200
 
-`アライドアーキテクツ株式会社 <http://www.aainc.co.jp/>`_ 所属
+`アライドアーキテクツ株式会社 <http://www.aainc.co.jp/>`_ 所属。PyCon JP 2014 スタッフ。
 
-複数のスタートアップにて、コンシューマー向けWebサービスの開発を経験後、2012年よりアライドアーキテクツ株式会社に参加。
-業務では主にWebサービスの開発全般を担当している。5年ほど前にPythonを使用して以来、Pythonが好き。
+複数のスタートアップにて、さまざまなWebアプリケーション開発に携わったあと、アライドアーキテクツ株式会社に入社。業務では主にWebサービスの開発全般を担当している。5年ほど前にPythonを使用して以来、Pythonが好き。
 時間があるときはDjangoやPythonの勉強会にも参加している。
 
 Twitter： @checkpoint

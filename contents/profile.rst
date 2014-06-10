@@ -25,7 +25,7 @@ PyCon JP 2012お手伝い。PyCon TW 2013でもレポート執筆。
 時間があるときはDjangoやPythonの勉強会にも参加している。
 
 Twitter： @checkpoint
-社内ブログ： http://tech.aainc.co.jp/archives/author/sekine
+ブログ： http://tech.aainc.co.jp/archives/author/sekine
 
 寺田学（てらだまなぶ）
 -----------------------------

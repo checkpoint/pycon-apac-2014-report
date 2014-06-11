@@ -79,7 +79,7 @@ PyConAPACパネル
 - Jessica McKellar (PSFメンバー・アメリカ) (US)
 
 .. figure:: /_static/second/APAC_Panel.jpg
-:height: 400
+   :height: 400
 
    APAC community panelのパネリスト 【左から(国記号で)、US/TW/KR/PH/MY/SG/ID/JP】
 

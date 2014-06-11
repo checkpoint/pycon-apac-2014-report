@@ -70,7 +70,7 @@ Designing a Python-integrated query language for distributed computing
 .. figure:: /_static/second/lunch_1.jpg
    :height: 400
 
-    お弁当
+   お弁当
 
 ティーブレイクでは、小籠包やお菓子、フルーツなどが提供されていました。
 またスポンサーによるコーヒーやお茶なども充実しており、とても充実した内容だと思いました。
@@ -98,7 +98,7 @@ Designing a Python-integrated query language for distributed computing
 .. figure:: /_static/second/closing.jpg
    :height: 400
 
-    Wen-Chang "Tim" Hsu氏のスピーチ
+   Wen-Chang "Tim" Hsu氏のスピーチ
 
 こうして2日間にわたるPyCon APAC 2014が終了し、最後に参加メンバーで記念撮影を行いました。
 
@@ -106,7 +106,7 @@ Designing a Python-integrated query language for distributed computing
 .. figure:: /_static/second/group.jpg
    :height: 400
 
-    全体集合写真
+   全体集合写真
 
 
 ディナー（寺田）
@@ -131,7 +131,7 @@ PyCon APAC 2014の運営者へのインタビュー
 .. figure:: /_static/second/interview_1.jpg
    :height: 400
 
-    インタビューに答える Wen-Chang "Tim" Hsu氏
+   インタビューに答える Wen-Chang "Tim" Hsu氏
 
 **参加者とその内訳を教えて頂けますか？**
 
@@ -171,7 +171,7 @@ Pythonのコミュニティはとてもに素晴らしく、またコミュニ�
 .. figure:: /_static/second/group.jpg
    :height: 400
 
-    記念撮影
+   記念撮影
 
 * インタビュー内容
 

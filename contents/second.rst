@@ -11,6 +11,8 @@
 Keynote speech: Jessica McKellar
 --------------------------------------
 
+宵です。Jessica McKellar氏はPython Software Foundationのディレクターをつとめていて、またボストンのPythonユーザグループを運営しています。さらにソフトウェアエンジニア、起業家としても活躍しています。このキーノートでは、様々な場所で使われているpythonについての紹介を行ってました。低いとこでは海底、高いとこでは宇宙ステーションでの利用例を紹介していました。また様々なプラットフォーム（Linux、Windows、モバイル）や科学技術の分野での利用例も紹介していました。
+
 .. figure:: /_static/second/jessica_1.jpg
    :height: 400
 
@@ -26,8 +28,6 @@ Keynote speech: Jessica McKellar
     :height: 400
 
     Jessica McKellar氏（３）
-
-宵です。Jessica McKellar氏はPython Software Foundationのディレクターをつとめていて、またボストンのPythonユーザグループを運営しています。さらにソフトウェアエンジニア、起業家としても活躍しています。このキーノートでは、様々な場所で使われているpythonについての紹介を行ってました。低いとこでは海底、高いとこでは宇宙ステーションでの利用例を紹介していました。また様々なプラットフォーム（Linux、Windows、モバイル）や科学技術の分野での利用例も紹介していました。
 
 Keynote speech: Andreas Klöckner
 --------------------------------------

@@ -21,7 +21,17 @@ Keynote speech: ジェシカ・マッケラー
 
 ジェシカはボストンのPythonコミュニティの発起人であり、女性向けPythonユーザグループを立てた凄腕の起業家兼エンジニアです。このキーノートでは、様々な場所で使われているpythonについての紹介を行ってました。低いとこでは海底、高いとこでは宇宙ステーションでの利用例を紹介していました。
 
-<<<<<<< HEAD
+.. warning::
+
+   PyLadies の Founder は Lynn Root のはずです。
+
+   http://www.roguelynn.com/pyladies/
+
+   下記のページによると、Boston Pythonの運営をしているようです。
+
+   https://tw.pycon.org/2014apac/ja/program/keynote-speakers/
+
+
 Keynote speech: Andreas Klöckner
 --------------------------------------
 
@@ -40,20 +50,6 @@ Keynote speech: Rapid Web Development with Mezzanine
 
 最後の基調講演はStephen McDonald氏が登壇しました。Djangoの上に構築された`Mezzanine <http://mezzanine.jupo.org/>`_ というCMSの紹介でした。なぜ他のCMSではなくMezzanineが良いのか、またDjango上に構築されている利点などについて説明がありました。Batteries Includedというキーワードの通り、あらかじめ必要な機能は一通りそろっている印象でした。管理画面なども洗練されていて使いやすようなUIでした。なによりDjangoアプリケーションなので開発者としては一度触ってみたくなるプロダクトでした。
 =======
-.. warning::
-
-   PyLadies の Founder は Lynn Root のはずです。
-
-   http://www.roguelynn.com/pyladies/
-
-   下記のページによると、Boston Pythonの運営をしているようです。
-
-   https://tw.pycon.org/2014apac/ja/program/keynote-speakers/
-
-* 内容紹介(午後-1)
-* 内容紹介(午後-2)
->>>>>>> f7216a1fed581ef4617e50193e8d613fff4e3569
-
 
 .. figure:: /_static/second/stephen_1.jpg
    :height: 400

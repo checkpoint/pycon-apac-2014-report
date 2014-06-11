@@ -27,12 +27,12 @@ Keynote speech: Jessica McKellar
 
     Jessica McKellar氏（３）
 
-Jessica McKellar氏はPython Software Foundationのディレクターをつとめていて、またボストンのPythonユーザグループを運営しています。さらにソフトウェアエンジニア、起業家としても活躍しています。このキーノートでは、様々な場所で使われているpythonについての紹介を行ってました。低いとこでは海底、高いとこでは宇宙ステーションでの利用例を紹介していました。また様々なプラットフォーム（Linux、Windows、モバイル）や科学技術の分野での利用例も紹介していました。
+宵です。Jessica McKellar氏はPython Software Foundationのディレクターをつとめていて、またボストンのPythonユーザグループを運営しています。さらにソフトウェアエンジニア、起業家としても活躍しています。このキーノートでは、様々な場所で使われているpythonについての紹介を行ってました。低いとこでは海底、高いとこでは宇宙ステーションでの利用例を紹介していました。また様々なプラットフォーム（Linux、Windows、モバイル）や科学技術の分野での利用例も紹介していました。
 
 Keynote speech: Andreas Klöckner
 --------------------------------------
 
-次の基調講演はAndreas Klöckner氏が登壇しました。ハードウェアを利用したPythonによる並列コンピューティングに関する内容でした。まずは並列コンピューティングに関するプログラミングモデルの概要を説明し、OpenCLなどの並列コンピューティングのフレームワークの紹介をしました。その後でPythonから利用できる `PyOpenCL <http://mathema.tician.de/software/pyopencl/>`_ や、`PyCUDA <http://mathema.tician.de/software/pycuda/>`_ の説明をしてから、実際のデモに移りました。デモでは実際に画面上からPythonコードを入力し、結果を表示していました。インタラクティブなセッションだったのでとてもイメージが掴みやすかったです。
+関根です。次の基調講演はAndreas Klöckner氏が登壇しました。ハードウェアを利用したPythonによる並列コンピューティングに関する内容でした。まずは並列コンピューティングに関するプログラミングモデルの概要を説明し、OpenCLなどの並列コンピューティングのフレームワークの紹介をしました。その後でPythonから利用できる `PyOpenCL <http://mathema.tician.de/software/pyopencl/>`_ や、`PyCUDA <http://mathema.tician.de/software/pycuda/>`_ の説明をしてから、実際のデモに移りました。デモでは実際に画面上からPythonコードを入力し、結果を表示していました。インタラクティブなセッションだったのでとてもイメージが掴みやすかったです。
 
 .. figure:: /_static/second/andreas.jpg
    :height: 400
@@ -61,7 +61,7 @@ Keynote speech: Rapid Web Development with Mezzanine
 PyConAPACパネル
 -----------------------------
 
-2日目の午前中に、APAC community panelと題しアジア各国のPyCon代表者が集まって議論を行いました。
+寺田です。2日目の午前中に、APAC community panelと題しアジア各国のPyCon代表者が集まって議論を行いました。
 このパネルディスカッションは、昨年日本で行われたPyCon APAC 2013 in Japanにおいて、シンガポールと台湾から座長経験者が参加いただいたことから急遽行ったものを、本格的に準備をし、今年のPyCon APAC in Taipeiでも行うことになりました。
 
 パネリストはは以下のとおりです。
@@ -105,7 +105,7 @@ PyConAPACパネル
 What Is Async, How Does It Work, and When Should I Use It?
 ----------------------------------------------------------
 
-このセッションではpythonの非同期処理(Async)について語っていました。
+宵です。このセッションではpythonの非同期処理(Async)について語っていました。
 まず例として、客がピザを注文してから焼きあがるのを待つのと、板前におまかせと言って勝手に出てくる寿司を受け取る場合を挙げて、同期/非同期の違いについて説明を行っていました。またC10K問題( クライアントが1万台のオーダーになったとき処理が捌ききれなく問題 )にも触れ、最後にpythonでの非同期通信の方法としてtwisted, tornedo、そしてpython3.4から標準搭載となったasyncioについての説明を行っていました。
 
 .. figure:: /_static/second/jesse_1.jpg
@@ -148,7 +148,7 @@ Designing a Python-integrated query language for distributed computing
 Python Performance Profiling: The Guts And The Glory
 ----------------------------------------------------------------------
 
-MongoDBに勤務するA. Jesse Jiryu Davis氏によるパフォーマンスのプロファイリングのお話でした。PyMongoの事例を元に、`Yappi <http://https://code.google.com/p/yappi/>`_ を利用してどうやってプロファイリングするか、また少ない努力でどうやって最大限の効果を出すかの説明をしていました。Yappiについては初めて知ったのでとても参考になりました。
+関根です。MongoDBに勤務するA. Jesse Jiryu Davis氏によるパフォーマンスのプロファイリングのお話でした。PyMongoの事例を元に、`Yappi <http://https://code.google.com/p/yappi/>`_ を利用してどうやってプロファイリングするか、また少ない努力でどうやって最大限の効果を出すかの説明をしていました。Yappiについては初めて知ったのでとても参考になりました。
 
 - リンク: https://tw.pycon.org/2014apac/ja/program/54
 - スピーカー: A. Jesse Jiryu Davis
@@ -178,7 +178,7 @@ MongoDBに勤務するAmalia Hawkins氏による、ハッカソンにおいてGe
 会場の雰囲気
 -----------------------------
 
-関根です。ここでは簡単に会期中の会場の雰囲気についてご紹介します。
+ここでは簡単に会期中の会場の雰囲気についてご紹介します。
 会期中は昼にランチタイム、午後にティーブレイクが設けられていました。
 ランチでは2日間ともお弁当を頂きました。とても美味しく、ボリュームもあり満足できる内容でした。
 お弁当を食べる場所は複数あったので、それぞれ好きな場所でゆったりと食事をする事ができました。

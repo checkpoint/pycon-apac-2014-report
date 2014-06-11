@@ -17,17 +17,37 @@ Keynote speech: ジェシカ・マッケラー
 
 ジェシカはボストンのPythonコミュニティの発起人であり、女性向けPythonユーザグループを立てた凄腕の起業家兼エンジニアです。このキーノートでは、様々な場所で使われているpythonについての紹介を行ってました。低いとこでは海底、高いとこでは宇宙ステーションでの利用例を紹介していました。
 
-* 内容紹介(午後-1)
-* 内容紹介(午後-2)
+Keynote speech: Andreas Klöckner
+--------------------------------------
 
-セッション（寺田, 宵, 関根）
----------------------------------
+次の基調講演はAndreas Klöckner氏が登壇しました。ハードウェアを利用したPythonによる並列コンピューティングに関する内容のスピーチでした。まずは並列コンピューティングに関するプログラミングモデル概要し、OpenCLなどの並列コンピューティングのフレームワークの紹介をしました。その後でPythonから利用できる`PyOpenCL <http://mathema.tician.de/software/pyopencl/>`_ の紹介をして、デモに移りました。デモでは実際に画面上で計算する様子を映し出しており、イメージを掴みやすかったです。
 
-* 参加したセッションの紹介
-* 参加したセッションの紹介（ひとり1本〜3本くらい 要調整）
+.. figure:: /_static/second/andreas.jpg
+   :height: 400
 
-宵から見たセッション
----------------------
+   Andreas Klöckner氏
+
+- https://www.youtube.com/watch?v=LkeYxye6RgI
+
+
+Keynote speech: Rapid Web Development with Mezzanine
+--------------------------------------------------------
+
+最後の基調講演はStephen McDonald氏が登壇しました。Djangoの上に構築された`Mezzanine <http://mezzanine.jupo.org/>`_ というCMSの紹介でした。なぜ他のCMSではなくMezzanineが良いのか、またDjango上に構築されている利点などについて説明がありました。Batteries Includedというキーワードの通り、あらかじめ必要な機能は一通りそろっている印象でした。管理画面なども洗練されていて使いやすようなUIでした。なによりDjangoアプリケーションなので開発者としては一度触ってみたくなるプロダクトでした。
+
+
+.. figure:: /_static/second/stephen_1.jpg
+   :height: 400
+
+   Stephen McDonald氏（１）
+
+.. figure:: /_static/second/stephen_2.jpg
+   :height: 400
+
+   Stephen McDonald氏（２）
+
+- https://speakerdeck.com/stephenmcd/rapid-web-development-with-mezzanine
+
 
 What Is Async, How Does It Work, and When Should I Use It?
 ----------------------------------------------------------
@@ -58,6 +78,37 @@ Designing a Python-integrated query language for distributed computing
 
 集計、JOINに特化した分散環境言語、Socialiteの紹介をしていました。pythonから呼ぶことができ、文法はErlangのようでした。比較対象としてHadoop上で動くJiraphも挙げている部分が面白いと感じました。ただこの辺ってSparkもそうですがSQLに似た言語の方が好まれる感じもするのですが如何なんでしょうか。Hadoop(MapReduce)の場合Hive, Sparkの場合Shark, SparkSQLといったのがSQLライクな言語としてあります。
 
+
+Python Performance Profiling: The Guts And The Glory
+----------------------------------------------------------------------
+
+MongoDBに勤務するA. Jesse Jiryu Davis氏によるパフォーマンスのプロファイリングのお話でした。PyMongoの事例を元に、`Yappi <http://https://code.google.com/p/yappi/>`_ を利用してどうやってプロファイリングするか、また少ない努力でどうやって最大限の効果を出すかの説明をしていました。Yappiについては初めて知ったのでとても参考になりました。
+
+- リンク: https://tw.pycon.org/2014apac/ja/program/54
+- スピーカー: A. Jesse Jiryu Davis
+
+
+Narrowing the Gender Gap at Hackathons
+----------------------------------------------------------------------
+
+MongoDBに勤務するAmalia Hawkins氏による、ハッカソンにおいてGender Gapをどうやって少なくしているかの講演でした。女性のためにハッカソンを改善していくことは、すべての人に対改善していく事と同じだと述べてました。またハッカソンは協力であり競争ではないという事、新しいハッカソンの形などを紹介していて、非常に参考になりました。今後のハッカソンに関する、主催や参加の参考にしたいと思いました。
+
+
+.. figure:: /_static/second/amalia_1.jpg
+   :height: 400
+
+   Amalia Hawkins氏（１）
+
+.. figure:: /_static/second/amalia_2.jpg
+   :height: 400
+
+   Amalia Hawkins氏（２）
+
+- リンク: https://tw.pycon.org/2014apac/ja/program/75
+- スピーカー: Amalia Hawkins
+- 資料: https://speakerdeck.com/hawka/narrowing-the-gender-gap-at-hackathons
+
+----------------------------------------------------------------------
 
 雰囲気の紹介
 -----------------------------
@@ -172,9 +223,6 @@ Pythonのコミュニティはとてもに素晴らしく、またコミュニ�
    :height: 400
 
     記念撮影
-
-* インタビュー内容
-
 
 PyConAPACパネル（寺田）
 -----------------------------

@@ -32,14 +32,12 @@ Keynote speech: Jessica McKellar
 Keynote speech: Andreas Klöckner
 --------------------------------------
 
-関根です。次の基調講演はAndreas Klöckner氏が登壇しました。ハードウェアを利用したPythonによる並列コンピューティングに関する内容でした。まずは並列コンピューティングに関するプログラミングモデルの概要を説明し、OpenCLなどの並列コンピューティングのフレームワークの紹介をしました。その後でPythonから利用できる `PyOpenCL <http://mathema.tician.de/software/pyopencl/>`_ や、`PyCUDA <http://mathema.tician.de/software/pycuda/>`_ の説明をしてから、実際のデモに移りました。デモでは実際に画面上からPythonコードを入力し、結果を表示していました。インタラクティブなセッションだったのでとてもイメージが掴みやすかったです。
+関根です。次の基調講演はAndreas Klöckner氏が登壇しました。ハードウェアを利用したPythonによる並列コンピューティングに関する内容でした。まずは並列コンピューティングに関するプログラミングモデルの概要を説明し、OpenCLなどの並列コンピューティングのフレームワークの紹介をしていました。その後でPythonから利用できる `PyOpenCL <http://mathema.tician.de/software/pyopencl/>`_ や、`PyCUDA <http://mathema.tician.de/software/pycuda/>`_ の説明を行い、実際のデモに移りました。デモでは実際に画面上からPythonコードを入力し、結果を表示していました。インタラクティブなセッションだったのでとてもイメージが掴みやすかったです。
 
 .. figure:: /_static/second/andreas.jpg
    :height: 400
 
    Andreas Klöckner氏
-
-- 動画: https://tw.pycon.org/2014apac/ja/program/88
 
 Keynote speech: Rapid Web Development with Mezzanine
 --------------------------------------------------------
@@ -102,7 +100,7 @@ What Is Async, How Does It Work, and When Should I Use It?
 ----------------------------------------------------------
 
 宵です。このセッションではPythonの非同期処理(Async)について語っていました。
-まず例として、客がピザを注文してから焼きあがるのを待つのと、板前におまかせと言って勝手に出てくる寿司を受け取る場合を挙げて、同期/非同期の違いについて説明を行っていました。またC10K問題( クライアントが1万台のオーダーになったとき処理が捌ききれなく問題 )にも触れ、最後にPythonでの非同期通信の方法としてtwisted, tornedo、そしてpython3.4から標準搭載となったasyncioについての説明を行っていました。
+まず例として、客がピザを注文してから焼きあがるのを待つのと、板前におまかせと言って勝手に出てくる寿司を受け取る場合を挙げて、同期/非同期の違いについて説明を行っていました。またC10K問題( クライアントが1万台のオーダーになったとき処理が捌ききれなく問題 )にも触れ、最後にPythonでの非同期通信の方法としてtwisted, tornedo、そしてPython3.4から標準搭載となったasyncioについての説明を行っていました。
 
 .. figure:: /_static/second/jesse_1.jpg
    :height: 400
@@ -120,7 +118,7 @@ What Is Async, How Does It Work, and When Should I Use It?
 Social Network Analysis with Python
 -----------------------------------
 
-FacebookのOAuth経由APIを使って、イイネ！ボタン押したユーザ数とか友達ユーザクラスタの検出などを行ってました。実際にその場で実行しており、見ててとてもわかり易い発表でした。また発表中、中国語(マンダリン)の単語分割器JIEBA(日本でいうとこのMeCabの単語分割部分のみってところ)の紹介があり、それを使ったツールも紹介されていました。日本人の私がそのツールを使ってもJIEBAによって漢字部分だけ抽出されていました。
+FacebookのOAuth経由APIを使って、イイネ！ボタン押したユーザ数とか友達ユーザクラスタの検出などを行ってました。実際にその場で実行しており、見ていてとてもわかり易い発表でした。また発表中、中国語(マンダリン)の単語分割器JIEBA(日本でいうとこのMeCabの単語分割部分のみってところ)の紹介があり、それを使ったツールも紹介されていました。日本人の私がそのツールを使ってもJIEBAによって漢字部分だけ抽出されていました。
 
 
 .. figure:: /_static/second/social_analysis.jpg
@@ -144,7 +142,7 @@ Designing a Python-integrated query language for distributed computing
 Python Performance Profiling: The Guts And The Glory
 ----------------------------------------------------------------------
 
-関根です。MongoDBに勤務するA. Jesse Jiryu Davis氏によるパフォーマンスのプロファイリングのお話でした。PyMongoの事例を元に、`Yappi <http://https://code.google.com/p/yappi/>`_ を利用してどうやってプロファイリングするか、また少ない努力でどうやって最大限の効果を出すかの説明をしていました。Yappiについては初めて知ったのでとても参考になりました。
+関根です。MongoDBに勤務するA. Jesse Jiryu Davis氏によるパフォーマンスのプロファイリングのお話でした。PyMongoの事例を元に、`Yappi <http://https://code.google.com/p/yappi/>`_ を利用してどうやってプロファイリングするか、また少ない努力でどうやって最大限の効果を引き出せば良いかの説明をしていました。Yappiについては初めて知ったのでとても参考になりました。
 
 - リンク: https://tw.pycon.org/2014apac/ja/program/54
 - スピーカー: A. Jesse Jiryu Davis
@@ -153,7 +151,7 @@ Python Performance Profiling: The Guts And The Glory
 Narrowing the Gender Gap at Hackathons
 ----------------------------------------------------------------------
 
-MongoDBに勤務するAmalia Hawkins氏による、ハッカソンにおいてGender Gapをどうやって少なくしているかの講演でした。ハッカソンを女性のために改善していくことは、すべての人に対して改善していくのと同じだと述べてました。ハッカソンは協力であり競争ではないという事、また今後の新しいハッカソンの形などを紹介していて、非常に参考になりました。これからハッカソンなどを開催する機会があれば、ぜひ参考にしていきたいです。
+MongoDBに勤務するAmalia Hawkins氏による、ハッカソンにおいてのGender Gapをどうやって少なくしているかの説明でした。ハッカソンを女性のために改善していくことは、すべての人に対して改善していくのと同じだと述べてました。ハッカソンは協力であり競争ではないという事、また今後の新しいハッカソンの形などを紹介していて、非常に参考になりました。これからハッカソンなどを開催する機会があれば、ぜひ参考にしていきたいです。
 
 
 .. figure:: /_static/second/amalia_1.jpg
@@ -227,7 +225,7 @@ MongoDBに勤務するAmalia Hawkins氏による、ハッカソンにおいてGe
 
    Wen-Chang "Tim" Hsu氏のスピーチ
 
-こうして2日間にわたるPyCon APAC 2014が終了し、最後に参加メンバーで外にでて記念撮影を行いました。
+こうして2日間にわたるPyCon APAC 2014が終了し、最後に参加メンバーで記念撮影を行いました。
 
 
 .. figure:: /_static/second/group.jpg
@@ -262,7 +260,7 @@ MongoDBに勤務するAmalia Hawkins氏による、ハッカソンにおいてGe
 PyCon APAC 2014の運営者へのインタビュー
 ----------------------------------------------------------
 
-関根です。スタッフディナーの時にCafeの外でPyCon TaiwanのChairperson（座長）であるWen-Chang "Tim" Hsu氏に時間をとって頂き，私と寺田さんでインタビューを行いました。
+関根です。スタッフディナーの時にカフェテリアの外でPyCon TaiwanのChairperson（座長）であるWen-Chang "Tim" Hsu氏に時間をとって頂き，私と寺田さんでインタビューを行いました。
 
 .. figure:: /_static/second/interview_1.jpg
    :height: 400
@@ -283,15 +281,15 @@ FLTについては特にアテンドはせず、こちらでは準備だけを�
 
 **今回からチェアマン（座長）になりました。とても大変だと思いますが、なぜチェアマン（座長）になると決心しましたか。**
 
-とてもシンプルです。Pythonはとても素晴らしく、私はコミュニティがより良く成長する事を望んでいます。さらにコミュニティに貢献する事ができるのなら、それは私にとっても良いチャンスだと思いました。
+とてもシンプルです。Pythonはとても素晴らしく、私はコミュニティがより良く成長する事を望んでいます。さらにコミュニティに貢献する事ができるのなら、それは私にとっても良い機会だと思いました。
 
-**最後に日本のPythonistaにメッセージをお願いします。**
+**最後に日本のPythonistaへメッセージをお願いします。**
 
 Pythonのコミュニティはとてもに素晴らしく、また日々コミュニティも成長しています。台湾のPythonistaはとてもクールですが、日本のPythonistaもまたクールです。
 
 **どうもありがとうございました。**
 
-お忙しい中、貴重なお時間を割いて頂いて、インタビューに回答して頂きました。英語でのインタビューという事で、質問をうまく伝える事が出来ずだいぶご迷惑をおかけしましが、本当に丁寧に回答して頂きました。
+お忙しい中、貴重なお時間を頂いてインタビューに回答して頂きました。英語でのインタビューという事で、質問をうまく伝える事が出来ずだいぶご迷惑をおかけしましが、本当に丁寧に回答して頂き感謝しています。
 
 .. figure:: /_static/second/interview_2.jpg
    :height: 400
@@ -313,9 +311,9 @@ Pythonのコミュニティはとてもに素晴らしく、また日々コミ�
 PyCon JP 2014のお知らせ
 =========================
 
-.. note::
+.. figure:: /_static/second/pycon2014-logo.png
 
-   ここにPyCon JP 2014ロゴを入れる(たかのり)
+   PyCon JP 2014
 
 最後に宣伝です。執筆者もスタッフとして参加している `PyCon JP 2014 <https://pycon.jp/2014/>`_ が9月中旬に東京で開催されます。開催概要は以下の通りです。
 

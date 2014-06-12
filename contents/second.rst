@@ -11,7 +11,7 @@
 Keynote speech: Jessica McKellar
 --------------------------------------
 
-宵です。Jessica McKellar氏はPython Software Foundationのディレクターをつとめていて、またボストンのPythonユーザグループを運営しています。さらにソフトウェアエンジニア、起業家としても活躍しています。このキーノートでは、様々な場所で使われているpythonについての紹介を行ってました。低いとこでは海底、高いとこでは宇宙ステーションでの利用例を紹介していました。また様々なプラットフォーム（Linux、Windows、モバイル）や科学技術の分野での利用例も紹介していました。
+宵です。Jessica McKellar氏はPython Software Foundation(PSF)のディレクターをつとめていて、またボストンのPythonユーザグループを運営しています。さらにソフトウェアエンジニア、起業家としても活躍しています。このキーノートでは、様々な場所で使われているPythonについての紹介を行ってました。低いとこでは海底、高いとこでは宇宙ステーションでの利用例を紹介していました。また様々なプラットフォーム（Linux、Windows、モバイル）や科学技術の分野での利用例も紹介していました。
 
 .. figure:: /_static/second/jessica_1.jpg
    :height: 400
@@ -66,27 +66,23 @@ PyConAPACパネル
 
 パネリストはは以下のとおりです。
 
-司会: Iqbal Abdullah (日本 & マレーシア) (MY)
+司会: Iqbal Abdullah (日本 & マレーシア)
 
 パネリスト:
 
-- Liew Beng Keat (シンガポール) (SG)
-- Yung-Yu Chen (台湾) (TW)
-- 寺田　学 (日本) (JP)
-- Mark Steve Samson (フィリピン) (PH)
-- Kwon-Han Bae (韓国) (KR)
-- Zaki Akhmad (インドネシア) (ID)
-- Jessica McKellar (PSFメンバー・アメリカ) (US)
+- Liew Beng Keat (シンガポール)
+- Yung-Yu Chen (台湾)
+- 寺田　学 (日本)
+- Mark Steve Samson (フィリピン)
+- Kwon-Han Bae (韓国)
+- Zaki Akhmad (インドネシア)
+- Jessica McKellar (PSFメンバー・アメリカ)
 
 .. figure:: /_static/second/APAC_Panel.jpg
    :height: 400
 
    APAC community panelのパネリスト 【左から(国記号で)、US/TW/KR/PH/MY/SG/ID/JP】
 
-
-.. note::
-
-   (SG)とか不要では?また、ここに写真を持ってくるとよいと思います(たかのり)
 
 今回は、多くの国・地域のPyConを中心的に支えているメンバーが集まり、各PyConの状況や困っていることを持ち寄り、今後のAPAC地域(アジア太平洋地域)で開催されるPyConやPyCon APACの将来について話し合いが行われました。当初は1時間枠でパネルディスカッションを行う予定でしたが、30分以上延長し、さらにランチを食べながら議論を継続していました。
 
@@ -105,8 +101,8 @@ PyConAPACパネル
 What Is Async, How Does It Work, and When Should I Use It?
 ----------------------------------------------------------
 
-宵です。このセッションではpythonの非同期処理(Async)について語っていました。
-まず例として、客がピザを注文してから焼きあがるのを待つのと、板前におまかせと言って勝手に出てくる寿司を受け取る場合を挙げて、同期/非同期の違いについて説明を行っていました。またC10K問題( クライアントが1万台のオーダーになったとき処理が捌ききれなく問題 )にも触れ、最後にpythonでの非同期通信の方法としてtwisted, tornedo、そしてpython3.4から標準搭載となったasyncioについての説明を行っていました。
+宵です。このセッションではPythonの非同期処理(Async)について語っていました。
+まず例として、客がピザを注文してから焼きあがるのを待つのと、板前におまかせと言って勝手に出てくる寿司を受け取る場合を挙げて、同期/非同期の違いについて説明を行っていました。またC10K問題( クライアントが1万台のオーダーになったとき処理が捌ききれなく問題 )にも触れ、最後にPythonでの非同期通信の方法としてtwisted, tornedo、そしてpython3.4から標準搭載となったasyncioについての説明を行っていました。
 
 .. figure:: /_static/second/jesse_1.jpg
    :height: 400
@@ -124,7 +120,7 @@ What Is Async, How Does It Work, and When Should I Use It?
 Social Network Analysis with Python
 -----------------------------------
 
-FacebookのOAuth経由APIを使って、イイネ！ボタン押したユーザ数とか友達ユーザクラスタの検出などを行ってました。実際にその場で実行しており、見ててとてもわかり易い発表でした。また発表中中国語(マンダリン)の単語分割器JIEBA(日本でいうとこのMeCabの単語分割部分のみってところ)の紹介があり、それを使ったツールも紹介されていました。日本人の私がそのツールを使ってもJIEBAによって漢字部分だけ抽出されていました。
+FacebookのOAuth経由APIを使って、イイネ！ボタン押したユーザ数とか友達ユーザクラスタの検出などを行ってました。実際にその場で実行しており、見ててとてもわかり易い発表でした。また発表中、中国語(マンダリン)の単語分割器JIEBA(日本でいうとこのMeCabの単語分割部分のみってところ)の紹介があり、それを使ったツールも紹介されていました。日本人の私がそのツールを使ってもJIEBAによって漢字部分だけ抽出されていました。
 
 
 .. figure:: /_static/second/social_analysis.jpg
@@ -138,7 +134,7 @@ FacebookのOAuth経由APIを使って、イイネ！ボタン押したユーザ�
 Designing a Python-integrated query language for distributed computing
 ----------------------------------------------------------------------
 
-集計、JOINに特化した分散環境言語、Socialiteの紹介をしていました。pythonから呼ぶことができ、文法はErlangのようでした。比較対象としてHadoop上で動くJiraphも挙げている部分が面白いと感じました。ただこの辺ってSparkもそうですがSQLに似た言語の方が好まれる感じもするのですが如何なんでしょうか。Hadoop(MapReduce)の場合Hive, Sparkの場合Shark, SparkSQLといったのがSQLライクな言語としてあります。
+集計、JOINに特化した分散環境言語、Socialiteの紹介をしていました。Pythonから呼ぶことができ、文法はErlangのようでした。比較対象としてHadoop上で動くJiraphも挙げている部分が面白いと感じました。ただこの辺ってSparkもそうですがSQLに似た言語の方が好まれる感じもするのですが如何なんでしょうか。Hadoop(MapReduce)の場合Hive, Sparkの場合Shark, SparkSQLといったのがSQLライクな言語としてあります。
 
 - リンク: https://tw.pycon.org/2014apac/ja/program/37
 - スピーカー: Jiwon Seo
@@ -248,7 +244,7 @@ MongoDBに勤務するAmalia Hawkins氏による、ハッカソンにおいてGe
 最初に、座長のTim Hsu氏から「スタート」の号令があり、参加者がテーブルから立上り食事を取りに行き各々食事を楽しみました。一部のメンバーのみビールを飲んでいましたが、個別に購入したものとのことでしたので私も思わず台湾ビールを頼みました。
 約2時間、自由に食事したり、会話をして流れ解散となりました。
 
-私は、韓国から来ていたPyConメンバーとじっくり話をしたいと考えていたので、今年開催を予定しているPyCon KRについて、状況を聞いたり、具体的な案の相談をしました。正式な発表はまだありませんが、今年中にソウルでPyCon KRを開催予定となっています。
+私は、韓国から来ていたPyConメンバーとじっくり話をしたいと考えていたので、今年開催を予定しているPyCon KRについて、状況を聞いたり、具体的な案の相談をしました。先日正式に今年の8月30日にソウルで `PyCon KR <http://www.pycon.kr/>`_ が開催されることになりました。
 他には、5年来の付き合いになる台湾のPloneユーザグループのリーダであり、PyCon APACのスタッフでもあるTsungWei Hu氏と近況報告をお互いにしました。
 
 いろいろな友達が作れたり、海外から参加しても楽しく過ごせるようなこの会に参加できたことは非常に良かったと思います。
@@ -312,7 +308,7 @@ Pythonのコミュニティはとてもに素晴らしく、また日々コミ�
 .. figure:: /_static/second/HDE.jpg
    :height: 400
 
-   HDEさんの皆さん
+   HDEの皆さん
 
 PyCon JP 2014のお知らせ
 =========================
